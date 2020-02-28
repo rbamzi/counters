@@ -1,4 +1,5 @@
-Fasting:
-	31
+//Fasting:
+	total = {31,1,1} = 33
+	
 	
 	
