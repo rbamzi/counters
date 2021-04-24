@@ -1,4 +1,9 @@
-//Fasting:
-	total = {31,1,1,1,1,1,3} = 39 //990205	
-	
-	
+data = {
+	"updateTime":"1400/02/04",
+	"amount":[31,1,1,1,1,1,3,2]
+};
+total=0;
+for (i in data.amount){
+	total+=data.amount[i];
+}
+console.log(total);
